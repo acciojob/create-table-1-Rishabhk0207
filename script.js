@@ -6,9 +6,9 @@ function insert_Row() {
   let col= document.createElement('td');
   col.textContent ='New Cell1';
   row.appendChild(col);
-  col= document.createElement('td');
-  col.textContent= 'New Cell2';
-  row.appendChild(col);
+  let col1= document.createElement('td');
+  col1.textContent= 'New Cell2';
+  row.appendChild(col1);
 
   table.insertAdjacentElement('afterBegin',row);
 }
