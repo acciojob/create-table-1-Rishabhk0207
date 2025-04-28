@@ -10,5 +10,5 @@ function insert_Row() {
   col1.textContent= 'New Cell2';
   row.appendChild(col1);
 
-  table.insertAdjacentElement('afterBegin',row);
+  tbody.insertBefore(row, tbody.firstChild);
 }
